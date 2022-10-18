@@ -6,9 +6,16 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
+<<<<<<< HEAD
     branches: ["dep-inclusions"]
   pull_request:
     branches: ["master"]
+=======
+    branches: [ "master" ]
+    pull_request:
+    branches: [ "master" ]
+ 
+>>>>>>> 3d79eafe8d8aa9e69c9d6f50978d7ac059598330
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
